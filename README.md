@@ -14,3 +14,6 @@ podman run -i --rm -p 8080:8080 funqy-http-quickstart
 
 # Red Hat Docs:
 https://access.redhat.com/documentation/en-us/red_hat_build_of_quarkus/quarkus-2-2-5/guide/438bff3e-a786-4420-b555-4639f5b8de7b#_05a5c26c-a959-4658-96ab-7894280acfe8
+
+# Image location:
+https://quay.io/repository/jnowakos/funqy-http-quickstart
