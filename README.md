@@ -17,3 +17,11 @@ https://access.redhat.com/documentation/en-us/red_hat_build_of_quarkus/quarkus-2
 
 # Image location:
 https://quay.io/repository/jnowakos/funqy-http-quickstart
+
+# Testing the greet endpoint
+curl "http://localhost:8080/greet" \
+-X POST \
+-H "Content-Type: application/json" \
+-d '{"name":"Bill"}'
+
+# Testing the Person
